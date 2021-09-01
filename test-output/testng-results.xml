@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test" duration-ms="98" started-at="2021-09-01T08:12:12Z" finished-at="2021-09-01T08:12:12Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="15" started-at="2021-09-01T08:12:12Z" finished-at="2021-09-01T08:12:12Z">
+      <class name="com.test.testng.suite.LoginTest">
+        <test-method status="PASS" signature="loginSougoumail()[pri:0, instance:com.test.testng.suite.LoginTest@3b81a1bc]" name="loginSougoumail" duration-ms="0" started-at="2021-09-01T16:12:12Z" finished-at="2021-09-01T16:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSougoumail -->
+      </class> <!-- com.test.testng.suite.LoginTest -->
+    </test> <!-- login -->
+    <test name="pay" duration-ms="3" started-at="2021-09-01T08:12:12Z" finished-at="2021-09-01T08:12:12Z">
+      <class name="com.test.testng.suite.SuiteConfigs">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.test.testng.suite.SuiteConfigs@3567135c]" name="BeforeSuite" is-config="true" duration-ms="29" started-at="2021-09-01T16:12:12Z" finished-at="2021-09-01T16:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:com.test.testng.suite.SuiteConfigs@3567135c]" name="AfterSuite" is-config="true" duration-ms="1" started-at="2021-09-01T16:12:12Z" finished-at="2021-09-01T16:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.test.testng.suite.SuiteConfigs -->
+      <class name="com.test.testng.suite.PayTest">
+        <test-method status="PASS" signature="paySuccess()[pri:0, instance:com.test.testng.suite.PayTest@327471b5]" name="paySuccess" duration-ms="1" started-at="2021-09-01T16:12:12Z" finished-at="2021-09-01T16:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paySuccess -->
+      </class> <!-- com.test.testng.suite.PayTest -->
+    </test> <!-- pay -->
+  </suite> <!-- test -->
+</testng-results>
